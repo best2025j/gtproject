@@ -1,8 +1,63 @@
 /* Style the nav menu */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
 header {
   background-color: #000;
-  height: "50px";
   color: #b5b5b5;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+}
+
+.component10 {
+  display: flex;
+  align-items: center;
+  background: #303030;
+  border-radius: 8px;
+  gap: 8px;
+  padding: 0px 0px 0px 8px;
+}
+
+.form-search {
+  border-radius: 8px;
+  height: 32px;
+  width: 480px;
+  outline: #616161;
+  border: #616161;
+  background: #303030;
+}
+
+.tag-frame {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tag-image {
+  background: #616161;
+  border-radius: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  color: #b5b5b5;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust this value based on your preference */
+  transform: translateY(-50%);
+  color: #b5b5b5;
+}
+
+.form-search {
+  padding-left: 28px; /* Adjust this value to ensure the text doesn't overlap with the icon */
 }
